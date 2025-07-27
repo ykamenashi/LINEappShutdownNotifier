@@ -1,0 +1,2 @@
+# LINEappShutdownNotifier
+Mac版LINE.appが黙って異常終了したのを通知するAppleScriptとLaunchd設定
