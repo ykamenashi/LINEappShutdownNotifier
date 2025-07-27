@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.user.line_monitor</string>
+    <key>Program</key>
+    <string>/usr/bin/open</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>-a</string>
+        <!-- この部分を、Automatorで生成したappへのpathに修正してください -->
+        <string>/Users/YOUR_NAME/path/to/Mac版LINE監視.app</string>
+        <!-- 設定箇所終わり -->
+    </array>
+    <key>StartInterval</key>
+    <integer>300</integer>
+    <key>RunAtLoad</key>
+    <true/>
+</dict>
+</plist>
